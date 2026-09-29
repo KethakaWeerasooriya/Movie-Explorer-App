@@ -57,7 +57,7 @@ npm install
 ```
 
 ### 3. Configure your API key
-Copy `.env.example` to `.env` and set **one** of:
+Create a `.env` file in the project root (next to `package.json`) and set **one** of:
 ```bash
 REACT_APP_TMDB_API_KEY=your_v3_api_key
 # or
