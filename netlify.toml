@@ -1,0 +1,9 @@
+# Netlify build settings + SPA fallback so React Router routes work on refresh
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
